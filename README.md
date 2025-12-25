@@ -19,11 +19,6 @@ These features cover physical attributes, condition, quality, size measurements,
 ## Objective
 The main objective is to build a **regression model** that can accurately predict the **SalePrice** of each house given its features. This involves understanding and preprocessing mixed data types, handling missing values, performing feature engineering, and applying regression algorithms that minimize prediction error.
 
-## Evaluation Metric
-Model performance is measured using **Root Mean Squared Logarithmic Error (RMSLE)** — calculated as the Root Mean Squared Error (RMSE) between the **logarithm of predicted prices and log of actual prices**. Using logarithms helps balance errors across both expensive and cheaper houses. 
-
-
-
 ## Results
 
 **1.Random Forest Regressor:**
